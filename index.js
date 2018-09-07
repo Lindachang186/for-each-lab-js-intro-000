@@ -4,11 +4,11 @@ function iterativeLog(array){
   })
 }
 
-function callback(item, counter, array){
+function callback(item, index, array){
   console.log(array);
 }
 
-function iterate(item, counter, array){
-  var array = [1];
-  array.forEach(callback)
+function iterate(item, index, array){
+  var array = [1,2,3,4];
+  return callback
 }

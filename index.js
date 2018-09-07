@@ -10,5 +10,5 @@ function callback(item, index, array){
 
 function iterate(item, index, array){
   var array = [1,2,3,4];
-  return callback
+  return array
 }

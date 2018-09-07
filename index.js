@@ -8,7 +8,7 @@ function callback(item, counter, array){
   console.log(array);
 }
 
-function iterate(){
+function iterate(item, counter, array){
   var array = [1,2,3,4];
   array.forEach(callback)
 }

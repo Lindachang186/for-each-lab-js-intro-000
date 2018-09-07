@@ -6,9 +6,7 @@ function iterativeLog(array){
 
 function iterate(array, callback){
   var array = [1,2,3,4];
-  array.forEach(callback)
-}
-
-function callback(array){
-  return array
+  array.forEach(callback => {
+    return array
+  })
 }

@@ -4,7 +4,7 @@ function iterativeLog(array){
   })
 }
 
-function callback(item, index, array){
+function callback(array){
   console.log(array)
 }
 

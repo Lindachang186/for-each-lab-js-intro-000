@@ -5,10 +5,12 @@ function iterativeLog(array){
 }
 
 function callback(item, index, array){
-  console.log(array);
+  if(array.length > 0) {
+    console.log(array)
+  }
 }
 
 function iterate(item, index, array){
   var array = [1,2,3,4];
-  return array
+  array.forEach(callback)
 }

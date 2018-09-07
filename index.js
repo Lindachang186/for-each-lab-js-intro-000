@@ -5,9 +5,7 @@ function iterativeLog(array){
 }
 
 function callback(item, index, array){
-  if(array.length > 0) {
-    console.log(array)
-  }
+  array.forEach(array)
 }
 
 function iterate(item, index, array){
